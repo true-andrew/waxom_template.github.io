@@ -330,10 +330,12 @@ header {
 
 .selector_round:hover,
 .selector_round:active {
-  width: 15px;
-  height: 15px;
+  width: 11px;
+  height: 11px;
   background-color: transparent;
   border: solid 2px #d3c1ad;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
 }
 
 .features {
