@@ -19,6 +19,11 @@
                 </svg>
                 <span class="logo_text">Waxom</span>
             </a>
+            <input type="checkbox" name="menu_toggle" class="menu_toggle" id="menu_toggle">
+            <label for="menu_toggle" class="menu">
+                <span class="menu_burger"></span>
+            </label>
+
             <nav class="nav_bar">
                 <ul class="links_header">
                     <li><a class="link" href="#">Home</a></li>
@@ -232,6 +237,7 @@
         </section>
         <section class="video">
             <video src="video/video.mp4" class="background_video" id="video_presentation" width="1920" height="705" muted loop></video>
+            <video src="video/video.mp4" id="mobile_video_presentation" width="480" muted loop class="video_mobile"></video>
             <div class="up_layer_video">
                 <button class="play_video_icon" id="play_video_icon">
                     <svg class="play_video_icon_svg" id="play_video_icon_svg" xmlns="http://www.w3.org/2000/svg"
@@ -448,10 +454,10 @@
                 <a href="#" class="footer_copyright_link_text copyright_link">FAQ</a>
                 <a href="#" class="footer_copyright_link_text copyright_link">Support</a>
             </div>
-            <div class="footer_copyright_links">
-                <span class="footer_copyright_link_text">Designed by</span>
-                <a href="#" class="footer_copyright_link_text copyright_link">ThemeFire</a>
-                <span class="footer_copyright_link_text">Only on</span>
+            <div class="footer_copyright_links footer_copyright_links_designed">
+                <span class="footer_copyright_link_text designed_by">Designed by</span>
+                <a href="#" class="footer_copyright_link_text copyright_link ThemeFire">ThemeFire</a>
+                <span class="footer_copyright_link_text footer_copyright_link_text_only">Only on</span>
                 <a href="#" class="footer_copyright_link_text copyright_link copyright_link_envato">Envato Market</a>
             </div>
         </section>
