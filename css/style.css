@@ -1738,6 +1738,9 @@ header {
     display: block;
     text-align: center;
   }
+  .footer_widget {
+    display: none;
+  }
   .footer_copyright {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
